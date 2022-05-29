@@ -1,0 +1,67 @@
+{
+    "wifi": {
+        "ssid": "<PUT YOUR WIFI SSID HERE>",
+        "pass": "<PUT YOUR WIFI PASS HERE>"
+    },
+    "mqtt": {
+        "name": "plate01",
+        "group": "plates",
+        "host": "<IP OF MQTT SERVER>",
+        "port": 1883,
+        "user": "",
+        "pass": "********"
+    },
+    "telnet": {
+        "enable": 1,
+        "port": 23
+    },
+    "http": {
+        "enable": true,
+        "port": 80,
+        "user": "",
+        "pass": "********"
+    },
+    "gpio": {
+        "config": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "debug": {
+        "baud": 0,
+        "tele": 300,
+        "host": "",
+        "port": 514,
+        "proto": 0,
+        "log": 0
+    },
+    "gui": {
+        "idle1": 60,
+        "idle2": 120,
+        "bckl": 23,
+        "rotate": 0,
+        "cursor": false,
+        "invert": 0,
+        "calibration": [
+            0,
+            65535,
+            0,
+            65535,
+            0
+        ]
+    },
+    "hasp": {
+        "startpage": 1,
+        "startdim": 50,
+        "theme": 4,
+        "hue": 110,
+        "font": "",
+        "pages": "/pages.jsonl"
+    }
+}
